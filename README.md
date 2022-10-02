@@ -108,16 +108,16 @@ usage: argmark [-h] [--api_key API_KEY] --title TITLE --pages PAGES --project_id
 ```
 # Arguments
 
-| short          |long|default|help|
-|:---------------| :--- | :--- | :--- |
+| short          |long|default| help                                      |
+|:---------------| :--- | :--- |:------------------------------------------|
 | `-h`           |`--help`||show this help message and exit|
-| `None`         |`--api_key`|`None`|Todoist API key|
-|`None` | `--title`      |`None`|Title of the book|
-|`None` | `--pages`      |`None`|Number of pages|
-|`None` | `--project_id` |`None`|Todoist project id for tasks|
-|`None` | `--section_id` |`None`|Todoist section id for tasks|
-|`None` | `--start`      |`datetime.date(2022, 10, 2)`|start date (YYYY-MM-DD) or current day|
-|`None` | `--end`        |`None`|due date (YYYY-MM-DD) - exclusive|
+| `None`         |`--api_key`|`None`| Todoist API key or env variable `API_KEY` |
+|`None` | `--title`      |`None`| Title of the book                         |
+|`None` | `--pages`      |`None`| Number of pages                           |
+|`None` | `--project_id` |`None`| Todoist project id for tasks              |
+|`None` | `--section_id` |`None`| Todoist section id for tasks              |
+|`None` | `--start`      |`datetime.date(2022, 10, 2)`| start date (YYYY-MM-DD) or current day    |
+|`None` | `--end`        |`None`| due date (YYYY-MM-DD) - exclusive         |
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
