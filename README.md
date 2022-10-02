@@ -59,8 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `Book-Breakdown`, `project_description`
-
+Book breakdown attacks procrastination by breaking down a book into daily bite size sections. The tool uses Todoist to log tasks and allow for them to be easily managed. Todoist offers a platform to manage tasks on almost all devices and OS.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -103,9 +102,23 @@ Installing PIP dependencies
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+```bash
+usage: argmark [-h] [--api_key API_KEY] --title TITLE --pages PAGES --project_id PROJECT_ID --section_id SECTION_ID [--start START] --end END
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```
+# Arguments
+
+| short          |long|default|help|
+|:---------------| :--- | :--- | :--- |
+| `-h`           |`--help`||show this help message and exit|
+| `None`         |`--api_key`|`None`|Todoist API key|
+|`None` | `--title`      |`None`|Title of the book|
+|`None` | `--pages`      |`None`|Number of pages|
+|`None` | `--project_id` |`None`|Todoist project id for tasks|
+|`None` | `--section_id` |`None`|Todoist section id for tasks|
+|`None` | `--start`      |`datetime.date(2022, 10, 2)`|start date (YYYY-MM-DD) or current day|
+|`None` | `--end`        |`None`|due date (YYYY-MM-DD) - exclusive|
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
